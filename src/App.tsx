@@ -28,7 +28,7 @@ const App: React.FC = () => {
 
   return (
     <Providers>
-      <Router>
+      <Router basename='/farm.github.io'>
         <TopBar onPresentMobileMenu={handlePresentMobileMenu} />
         <MobileMenu onDismiss={handleDismissMobileMenu} visible={mobileMenu} />
         <Switch>
