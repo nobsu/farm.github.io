@@ -83,7 +83,7 @@ export const supportedPools = [
     icon: '🦅',
   },
   {
-    pid: 1,
+    pid: 3,
     lpAddresses: {
       4: '0x070dd8ecfbc4a418f738725bfaaf69f30e588da1',
     },
