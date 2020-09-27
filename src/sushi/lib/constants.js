@@ -40,10 +40,10 @@ export const addressMap = {
 
 export const contractAddresses = {
   sushi: {
-    4: '0xeee31657F43cC7f9FF999166070cC3cF1957F989',
+    4: '0x8fadfe41f99cb56f34434d020c2503d68ad604b1',
   },
   masterChef: {
-    4: '0x9Ed14a06606B1FeB43aC92B1423eb2F089290C89',
+    4: '0xbdf99c803b8d7cd6583cca5e65314c88801dc230',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -72,28 +72,15 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0x1790c24261704deea94e13e0e87e4e4dbcd7f741',
+      4: '0x5d1d1caa8aa7f76932deee8118812bcd5b55b03a',
     },
     tokenAddresses: {
-      4: '0x5ccdf6f363d78c1004999acaea60c6b42a07ce2d',
+      4: '0x8fadfe41f99cb56f34434d020c2503d68ad604b1',
     },
-    name: 'CNYT Party!',
-    symbol: 'CNYT-WETH UNI-V2 LP',
-    tokenSymbol: 'CNYT',
+    name: 'WIOG Party!',
+    symbol: 'WIOG-WETH UNI-V2 LP',
+    tokenSymbol: 'WIOG',
     icon: '🦅',
-  },
-  {
-    pid: 3,
-    lpAddresses: {
-      4: '0x070dd8ecfbc4a418f738725bfaaf69f30e588da1',
-    },
-    tokenAddresses: {
-      4: '0xeee31657f43cc7f9ff999166070cc3cf1957f989',
-    },
-    name: 'MDX Party!',
-    symbol: 'MDX-WETH UNI-V2 LP',
-    tokenSymbol: 'MDX',
-    icon: 'MDX',
   },
 ]
 
